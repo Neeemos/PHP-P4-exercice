@@ -4,7 +4,7 @@ $oeuvres = [
     [
         'id' => 1,
         'titre' => 'Dodomu',
-        'description' => 'Mia Tozerski est une artiste peintre ukrainienne réfugiée de la guerre. Sur cette œuvre, Dodomu ("domicile" en ukrainien), elle nous montre la tristesse du peuple ukrainien qu\'elle partage, ayant elle-même dû quitter son foyer. L\'œuvre évoque le drapeau liquéfié d\'une Ukraine en souffrance, pleurant la mort de ses compatriotes. Ce travail chargé d\'émotion est le symbole d\'un événement qui marquera l\'Histoire. Cette peinture à l\'acrylique rayonne grâce à son fond lisse et ses mélanges de couleurs éclatantes.',
+        'description' => "Mia Tozerski est une artiste peintre ukrainienne réfugiée de la guerre. Sur cette oeuvre, Dodomu ('domicile' en ukrainien), elle nous montre la tristesse du peuple ukrainien qu'elle partage, ayant elle-même dû quitter son foyer. L'œuvre évoque le drapeau liquéfié d'une Ukraine en souffrance, pleurant la mort de ses compatriotes. Ce travail chargé d'émotion est le symbole d'un événement qui marquera l'Histoire. Cette peinture à l'acrylique rayonne grâce à son fond lisse et ses mélanges de couleurs éclatantes.",
         'artiste' => 'Mia Tozerski',
         'image' => 'img/clark-van-der-beken.png' // peut être modifié par une URL comme http://localhost/...
     ],
@@ -24,7 +24,7 @@ $oeuvres = [
     ],
         [
         'id' => 4,
-        'titre' => 'Le refuge de l\'Havre',
+        'titre' => "Le refuge de l'Havre",
         'description' => 'Nam tempus neque nec felis venenatis auctor. Nam velit risus, lobortis eu quam non, interdum efficitur nibh. Phasellus a augue ac orci lacinia mattis et vel lectus. Sed nec tellus urna. Donec at turpis turpis. Cras quam tellus, imperdiet vitae finibus id, varius quis felis. Maecenas blandit eleifend risus, vel hendrerit erat dignissim id. Nullam at laoreet nibh. Nulla gravida varius sollicitudin. Etiam non aliquam diam, tempor varius sapien. Aenean et velit eu nisi lobortis massa nunc.',
         'artiste' => 'Simon Pelletier',
         'image' => 'img/steve-johnson-5.png' // peut être modifié par une URL comme http://localhost/...
