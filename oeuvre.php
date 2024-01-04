@@ -8,12 +8,12 @@
     }
     $id = (int) $_GET['id'];
     $bdd = connexion();
-    $requete = $bdd->prepare('SELECT * FROM `oeuvres` WHERE `id` = ' . $id);
-    $requete->execute();
+    $requete = $bdd->prepare('SELECT * FROM `oeuvres` WHERE `id` = ?');
+    $requete->execute([$id]);
     $oeuvre = $requete->fetch();
-
+    
     // Si aucune oeuvre trouvé, on redirige vers la page d'accueil
-    if(is_null($oeuvre)) {
+    if(is_null($oeuvre) || !$oeuvre) {
         header('Location: index.php');
     }
 ?>

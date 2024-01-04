@@ -1,5 +1,17 @@
 <?php require 'header.php'; ?>
 
+<?php if (isset($_GET['success']) && $_GET['success'] == 1) : ?>
+    <div class="resultat__ajout--success">
+    <p class="success">Oeuvre added successfully!</p>
+    </div>
+<?php endif; ?>
+
+<?php if (isset($_GET['error'])) : ?>
+    <div class="resultat__ajout--error">
+    <p class="error"><?php echo htmlspecialchars($_GET['error']); ?></p>
+    </div>
+<?php endif; ?>
+
 <form action="traitement.php" method="POST">
     <div class="champ-formulaire">
         <label for="titre">Titre de l'œuvre</label>
